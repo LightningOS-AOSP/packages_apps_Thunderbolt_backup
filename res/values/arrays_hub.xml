@@ -86,4 +86,14 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="hub_lyrics_entries">
+        <item>Off</item>
+        <item>Single line</item>
+        <item>Scrolling</item>
+    </string-array>
+    <string-array name="hub_lyrics_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

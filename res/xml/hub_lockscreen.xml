@@ -3,4 +3,13 @@
      Copyright (C) 2026 LightningOS
      SPDX-License-Identifier: Apache-2.0
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" />
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_lock_nowplaying"
+        android:title="@string/hub_nowplaying_title"
+        android:summary="@string/hub_nowplaying_summary"
+        android:fragment="com.lightning.control.screens.NowPlayingScreen"
+        app:hubIcon="@drawable/hub_ic_nowplaying" />
+</PreferenceScreen>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="nowplaying_enabled"
+        android:title="@string/hub_np_enable"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="nowplaying_show_on_lockscreen"
+        android:title="@string/hub_np_lockscreen"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="nowplaying_show_on_aod"
+        android:title="@string/hub_np_aod"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="nowplaying_use_compact_style"
+        android:title="@string/hub_np_compact"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="nowplaying_tap_to_expand"
+        android:title="@string/hub_np_tap_expand"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="nowplaying_lyrics_mode"
+        android:title="@string/hub_np_lyrics"
+        android:entries="@array/hub_lyrics_entries"
+        android:entryValues="@array/hub_lyrics_values"
+        android:defaultValue="0" />
+
+    <SeekBarPreference
+        android:key="nowplaying_icon_size"
+        android:title="@string/hub_np_icon_size"
+        android:min="24"
+        android:max="96"
+        android:defaultValue="48" />
+
+    <SwitchPreferenceCompat
+        android:key="media_waveform_seekbar"
+        android:title="@string/hub_np_waveform"
+        android:defaultValue="false" />
+</PreferenceScreen>

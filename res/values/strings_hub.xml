@@ -99,4 +99,14 @@
     <string name="hub_dynamic_bar_keyguard">Show on keyguard</string>
     <string name="hub_dynamic_bar_battery">Battery chip mode</string>
     <string name="hub_dynamic_bar_compact">Compact notifications</string>
+    <string name="hub_nowplaying_title">Now Playing</string>
+    <string name="hub_nowplaying_summary">Media card style, sizes and lyrics</string>
+    <string name="hub_np_enable">Enable Now Playing</string>
+    <string name="hub_np_lockscreen">Show on lockscreen</string>
+    <string name="hub_np_aod">Show on ambient display</string>
+    <string name="hub_np_compact">Compact style</string>
+    <string name="hub_np_tap_expand">Tap to expand</string>
+    <string name="hub_np_lyrics">Lyrics mode</string>
+    <string name="hub_np_icon_size">Artwork size</string>
+    <string name="hub_np_waveform">Waveform seekbar</string>
 </resources>
