@@ -73,4 +73,12 @@
     <string name="hub_island_flashlight">Flashlight</string>
     <string name="hub_island_width">Width scale</string>
     <string name="hub_island_height">Height scale</string>
+    <string name="hub_clock_chip_title">Clock chip</string>
+    <string name="hub_clock_chip_summary">Gradient and masking for the status bar clock</string>
+    <string name="hub_logo_title">Status bar logo</string>
+    <string name="hub_logo_summary">Show a mark next to the system icons</string>
+    <string name="hub_chip_enable">Enable clock chip</string>
+    <string name="hub_chip_mask">Mask text with gradient</string>
+    <string name="hub_chip_angle">Gradient angle</string>
+    <string name="hub_logo_enable">Show status bar logo</string>
 </resources>

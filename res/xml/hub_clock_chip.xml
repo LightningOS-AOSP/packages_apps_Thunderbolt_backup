@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="statusbar_clock_chip"
+        android:title="@string/hub_chip_enable"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="statusbar_clock_chip_gradient_mask_text"
+        android:title="@string/hub_chip_mask"
+        android:defaultValue="false" />
+
+    <SeekBarPreference
+        android:key="statusbar_clock_chip_gradient_angle"
+        android:title="@string/hub_chip_angle"
+        android:min="0"
+        android:max="360"
+        android:defaultValue="90" />
+</PreferenceScreen>
