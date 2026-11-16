@@ -109,4 +109,26 @@
     <string name="hub_np_lyrics">Lyrics mode</string>
     <string name="hub_np_icon_size">Artwork size</string>
     <string name="hub_np_waveform">Waveform seekbar</string>
+    <string name="hub_charging_title">Charging animation</string>
+    <string name="hub_charging_summary">Ring style, glow and where it appears</string>
+    <string name="hub_weather_title">Lockscreen weather</string>
+    <string name="hub_weather_summary">Location, units and detail rows</string>
+    <string name="hub_glymps_title">Glyph rotation</string>
+    <string name="hub_glymps_summary">Swap the lockscreen glyph on a schedule</string>
+    <string name="hub_chg_enable">Enable charging animation</string>
+    <string name="hub_chg_style">Animation style</string>
+    <string name="hub_chg_arcs">Arc count</string>
+    <string name="hub_chg_lockscreen">Show on lockscreen</string>
+    <string name="hub_chg_aod">Show on ambient display</string>
+    <string name="hub_wx_enable">Enable lockscreen weather</string>
+    <string name="hub_wx_text">Show conditions text</string>
+    <string name="hub_wx_humidity">Show humidity</string>
+    <string name="hub_wx_wind">Show wind</string>
+    <string name="hub_wx_clock">Weather beside the clock</string>
+    <string name="hub_gl_enable">Enable glyph rotation</string>
+    <string name="hub_gl_source">Glyph source</string>
+    <string name="hub_gl_change_on">Change glyph on</string>
+    <string name="hub_gl_interval">Timer interval</string>
+    <string name="hub_gl_cache">Cached glyphs</string>
+    <string name="hub_gl_wifi">Download over Wi-Fi only</string>
 </resources>

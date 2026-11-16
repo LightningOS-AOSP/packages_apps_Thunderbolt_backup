@@ -12,4 +12,24 @@
         android:summary="@string/hub_nowplaying_summary"
         android:fragment="com.lightning.control.screens.NowPlayingScreen"
         app:hubIcon="@drawable/hub_ic_nowplaying" />
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_lock_charging"
+        android:title="@string/hub_charging_title"
+        android:summary="@string/hub_charging_summary"
+        android:fragment="com.lightning.control.screens.ChargingScreen"
+        app:hubIcon="@drawable/hub_ic_charging" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_lock_weather"
+        android:title="@string/hub_weather_title"
+        android:summary="@string/hub_weather_summary"
+        android:fragment="com.lightning.control.screens.WeatherScreen"
+        app:hubIcon="@drawable/hub_ic_weather" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_lock_glymps"
+        android:title="@string/hub_glymps_title"
+        android:summary="@string/hub_glymps_summary"
+        android:fragment="com.lightning.control.screens.GlympsScreen"
+        app:hubIcon="@drawable/hub_ic_glymps" />
 </PreferenceScreen>

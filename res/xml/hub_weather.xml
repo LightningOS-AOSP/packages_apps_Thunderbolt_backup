@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="lockscreen_weather_enabled"
+        android:title="@string/hub_wx_enable"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="lockscreen_weather_text"
+        android:title="@string/hub_wx_text"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="lockscreen_weather_humidity_info"
+        android:title="@string/hub_wx_humidity"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="lockscreen_weather_wind_info"
+        android:title="@string/hub_wx_wind"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="custom_clock_weather"
+        android:title="@string/hub_wx_clock"
+        android:defaultValue="false" />
+</PreferenceScreen>

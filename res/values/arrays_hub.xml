@@ -96,4 +96,44 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="hub_charging_style_entries">
+        <item>Ring</item>
+        <item>Arc</item>
+        <item>Ripple</item>
+    </string-array>
+    <string-array name="hub_charging_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="hub_glymps_source_entries">
+        <item>Local collection</item>
+        <item>Custom URLs</item>
+    </string-array>
+    <string-array name="hub_glymps_source_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="hub_glymps_change_entries">
+        <item>Every unlock</item>
+        <item>On a timer</item>
+        <item>Once a day</item>
+    </string-array>
+    <string-array name="hub_glymps_change_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="hub_glymps_interval_entries">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>6 hours</item>
+    </string-array>
+    <string-array name="hub_glymps_interval_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="charging_animation_enabled"
+        android:title="@string/hub_chg_enable"
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:key="charging_animation_style"
+        android:title="@string/hub_chg_style"
+        android:entries="@array/hub_charging_style_entries"
+        android:entryValues="@array/hub_charging_style_values"
+        android:defaultValue="0" />
+
+    <SeekBarPreference
+        android:key="charging_arc_count"
+        android:title="@string/hub_chg_arcs"
+        android:min="1"
+        android:max="8"
+        android:defaultValue="4" />
+
+    <SwitchPreferenceCompat
+        android:key="charging_show_on_lockscreen"
+        android:title="@string/hub_chg_lockscreen"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="charging_show_on_aod"
+        android:title="@string/hub_chg_aod"
+        android:defaultValue="false" />
+</PreferenceScreen>

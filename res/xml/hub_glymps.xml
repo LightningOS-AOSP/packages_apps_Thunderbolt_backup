@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="lock_glymps_enabled"
+        android:title="@string/hub_gl_enable"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:key="lock_glymps_source"
+        android:title="@string/hub_gl_source"
+        android:entries="@array/hub_glymps_source_entries"
+        android:entryValues="@array/hub_glymps_source_values"
+        android:defaultValue="0" />
+
+    <ListPreference
+        android:key="lock_glymps_change_on"
+        android:title="@string/hub_gl_change_on"
+        android:entries="@array/hub_glymps_change_entries"
+        android:entryValues="@array/hub_glymps_change_values"
+        android:defaultValue="0" />
+
+    <ListPreference
+        android:key="lock_glymps_timer_interval"
+        android:title="@string/hub_gl_interval"
+        android:entries="@array/hub_glymps_interval_entries"
+        android:entryValues="@array/hub_glymps_interval_values"
+        android:defaultValue="0" />
+
+    <SeekBarPreference
+        android:key="lock_glymps_cache_size"
+        android:title="@string/hub_gl_cache"
+        android:min="1"
+        android:max="50"
+        android:defaultValue="10" />
+
+    <SwitchPreferenceCompat
+        android:key="lock_glymps_wifi_only"
+        android:title="@string/hub_gl_wifi"
+        android:defaultValue="true" />
+</PreferenceScreen>
