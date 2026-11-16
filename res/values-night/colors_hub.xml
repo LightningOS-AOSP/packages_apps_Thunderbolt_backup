@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <color name="hub_bg">#141218</color>
+    <color name="hub_card">#211F26</color>
+    <color name="hub_title">#ECE6F0</color>
+    <color name="hub_summary">#B5AFBE</color>
+    <color name="hub_chevron">#A49FAE</color>
+    <color name="hub_pill_surface">#942C2834</color>
+    <color name="hub_pill_stroke">#24FFFFFF</color>
+    <color name="hub_pill_inactive">#9A96A3</color>
+    <color name="hub_pill_active_bg">#00522C</color>
+    <color name="hub_pill_active_fg">#80DA88</color>
+</resources>
