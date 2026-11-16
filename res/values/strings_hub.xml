@@ -81,4 +81,22 @@
     <string name="hub_chip_mask">Mask text with gradient</string>
     <string name="hub_chip_angle">Gradient angle</string>
     <string name="hub_logo_enable">Show status bar logo</string>
+    <string name="hub_qs_title">Quick Settings layout</string>
+    <string name="hub_qs_summary">Tile grid size and panel behaviour</string>
+    <string name="hub_dynamic_bar_title">Dynamic bar</string>
+    <string name="hub_dynamic_bar_summary">Compact notifications on the keyguard</string>
+    <string name="hub_qs_tile_columns">Tile columns</string>
+    <string name="hub_qs_tile_rows">Tile rows</string>
+    <string name="hub_qs_control_columns">Control columns</string>
+    <string name="hub_qqs_tile_columns">Quick panel tile columns</string>
+    <string name="hub_qqs_tile_rows">Quick panel tile rows</string>
+    <string name="hub_qqs_control_columns">Quick panel control columns</string>
+    <string name="hub_qs_panel_mode">Quick panel mode</string>
+    <string name="hub_qs_panel_left">Quick panel on the left</string>
+    <string name="hub_qs_tile_labels">Show tile labels</string>
+    <string name="hub_qs_weather">Show weather</string>
+    <string name="hub_dynamic_bar_enable">Enable dynamic bar</string>
+    <string name="hub_dynamic_bar_keyguard">Show on keyguard</string>
+    <string name="hub_dynamic_bar_battery">Battery chip mode</string>
+    <string name="hub_dynamic_bar_compact">Compact notifications</string>
 </resources>

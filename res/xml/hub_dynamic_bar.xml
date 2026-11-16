@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="ax_dynamic_bar_enabled"
+        android:title="@string/hub_dynamic_bar_enable"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="ax_dynamic_bar_keyguard_enabled"
+        android:title="@string/hub_dynamic_bar_keyguard"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:key="ax_dynamic_bar_keyguard_battery_chip_mode"
+        android:title="@string/hub_dynamic_bar_battery"
+        android:entries="@array/hub_battery_chip_entries"
+        android:entryValues="@array/hub_battery_chip_values"
+        android:defaultValue="0" />
+
+    <SwitchPreferenceCompat
+        android:key="ax_dynamic_bar_compact_notifications"
+        android:title="@string/hub_dynamic_bar_compact"
+        android:defaultValue="false" />
+</PreferenceScreen>

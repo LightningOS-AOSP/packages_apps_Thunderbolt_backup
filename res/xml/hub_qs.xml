@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SeekBarPreference
+        android:key="ax_qs_tile_columns"
+        android:title="@string/hub_qs_tile_columns"
+        android:min="2"
+        android:max="6"
+        android:defaultValue="4" />
+
+    <SeekBarPreference
+        android:key="ax_qs_tile_rows"
+        android:title="@string/hub_qs_tile_rows"
+        android:min="1"
+        android:max="4"
+        android:defaultValue="2" />
+
+    <SeekBarPreference
+        android:key="ax_qs_control_columns"
+        android:title="@string/hub_qs_control_columns"
+        android:min="1"
+        android:max="4"
+        android:defaultValue="2" />
+
+    <SeekBarPreference
+        android:key="ax_qqs_tile_columns"
+        android:title="@string/hub_qqs_tile_columns"
+        android:min="2"
+        android:max="6"
+        android:defaultValue="4" />
+
+    <SeekBarPreference
+        android:key="ax_qqs_tile_rows"
+        android:title="@string/hub_qqs_tile_rows"
+        android:min="1"
+        android:max="4"
+        android:defaultValue="2" />
+
+    <SeekBarPreference
+        android:key="ax_qqs_control_columns"
+        android:title="@string/hub_qqs_control_columns"
+        android:min="1"
+        android:max="4"
+        android:defaultValue="2" />
+
+    <ListPreference
+        android:key="ax_qs_panel_mode"
+        android:title="@string/hub_qs_panel_mode"
+        android:entries="@array/hub_qs_panel_mode_entries"
+        android:entryValues="@array/hub_qs_panel_mode_values"
+        android:defaultValue="0" />
+
+    <SwitchPreferenceCompat
+        android:key="ax_qs_quick_panel_on_left"
+        android:title="@string/hub_qs_panel_left"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="ax_qs_show_tile_labels"
+        android:title="@string/hub_qs_tile_labels"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="ax_qs_show_weather"
+        android:title="@string/hub_qs_weather"
+        android:defaultValue="true" />
+</PreferenceScreen>
