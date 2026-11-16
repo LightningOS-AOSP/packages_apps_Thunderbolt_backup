@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_enabled"
+        android:title="@string/hub_cutout_enable"
+        android:summary="@string/hub_cutout_enable_summary"
+        android:defaultValue="false" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_cutout_ring"
+        android:title="@string/hub_section_ring"
+        android:summary="@string/hub_cutout_ring_summary"
+        android:fragment="com.lightning.control.screens.cutout.CutoutRingScreen"
+        app:hubIcon="@drawable/hub_ic_cutout_progress" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_cutout_indicator"
+        android:title="@string/hub_section_indicator"
+        android:summary="@string/hub_cutout_indicator_summary"
+        android:fragment="com.lightning.control.screens.cutout.CutoutIndicatorScreen"
+        app:hubIcon="@drawable/hub_ic_cutout_progress" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_cutout_text"
+        android:title="@string/hub_section_text"
+        android:summary="@string/hub_cutout_text_summary"
+        android:fragment="com.lightning.control.screens.cutout.CutoutTextScreen"
+        app:hubIcon="@drawable/hub_ic_cutout_progress" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_cutout_music"
+        android:title="@string/hub_section_music"
+        android:summary="@string/hub_cutout_music_summary"
+        android:fragment="com.lightning.control.screens.cutout.CutoutMusicScreen"
+        app:hubIcon="@drawable/hub_ic_nowplaying" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_cutout_finish"
+        android:title="@string/hub_section_finish"
+        android:summary="@string/hub_cutout_finish_summary"
+        android:fragment="com.lightning.control.screens.cutout.CutoutFinishScreen"
+        app:hubIcon="@drawable/hub_ic_charging" />
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_music_enabled"
+        android:title="@string/hub_music_ring_enable"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:key="cutout_progress_music_color_mode"
+        android:title="@string/hub_music_color_mode"
+        android:entries="@array/hub_music_color_mode_entries"
+        android:entryValues="@array/hub_music_color_mode_values"
+        android:defaultValue="0" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_music_stroke_dp10"
+        android:title="@string/hub_music_stroke"
+        android:min="1"
+        android:max="60"
+        android:defaultValue="20" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_music_opacity"
+        android:title="@string/hub_music_opacity"
+        android:min="0"
+        android:max="100"
+        android:defaultValue="85" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_music_clockwise"
+        android:title="@string/hub_music_clockwise"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_music_aod"
+        android:title="@string/hub_music_aod"
+        android:defaultValue="false" />
+</PreferenceScreen>

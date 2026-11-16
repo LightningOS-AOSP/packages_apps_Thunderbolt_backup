@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="cutout_progress_ring_color_mode"
+        android:title="@string/hub_ring_color_mode"
+        android:entries="@array/hub_ring_color_mode_entries"
+        android:entryValues="@array/hub_ring_color_mode_values"
+        android:defaultValue="0" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_stroke_width_dp10"
+        android:title="@string/hub_ring_stroke"
+        android:min="1"
+        android:max="60"
+        android:defaultValue="20" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_opacity"
+        android:title="@string/hub_ring_opacity"
+        android:min="0"
+        android:max="100"
+        android:defaultValue="90" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_ring_gap_x1000"
+        android:title="@string/hub_ring_gap"
+        android:min="1000"
+        android:max="1400"
+        android:defaultValue="1155" />
+
+    <ListPreference
+        android:key="cutout_progress_easing"
+        android:title="@string/hub_ring_easing"
+        android:entries="@array/hub_ring_easing_entries"
+        android:entryValues="@array/hub_ring_easing_values"
+        android:defaultValue="0" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_clockwise"
+        android:title="@string/hub_ring_clockwise"
+        android:defaultValue="true" />
+</PreferenceScreen>

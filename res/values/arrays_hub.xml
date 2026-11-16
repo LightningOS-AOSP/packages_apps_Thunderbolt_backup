@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <string-array name="hub_ring_color_mode_entries">
+        <item>Theme accent</item>
+        <item>Rainbow</item>
+        <item>Custom colour</item>
+    </string-array>
+    <string-array name="hub_ring_color_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="hub_ring_easing_entries">
+        <item>Linear</item>
+        <item>Ease out</item>
+        <item>Ease in out</item>
+        <item>Spring</item>
+    </string-array>
+    <string-array name="hub_ring_easing_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="hub_position_entries">
+        <item>Right</item>
+        <item>Left</item>
+        <item>Top</item>
+        <item>Bottom</item>
+        <item>Top right</item>
+        <item>Top left</item>
+        <item>Bottom right</item>
+        <item>Bottom left</item>
+    </string-array>
+    <string-array name="hub_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="hub_music_color_mode_entries">
+        <item>Album icon</item>
+        <item>Theme accent</item>
+        <item>Album artwork</item>
+        <item>Custom colour</item>
+    </string-array>
+    <string-array name="hub_music_color_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="hub_finish_style_entries">
+        <item>Pop</item>
+        <item>Segmented</item>
+        <item>Snap</item>
+    </string-array>
+    <string-array name="hub_finish_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

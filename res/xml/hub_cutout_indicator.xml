@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_bg_ring_enabled"
+        android:title="@string/hub_bg_ring_enable"
+        android:defaultValue="true" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_bg_ring_opacity"
+        android:title="@string/hub_bg_ring_opacity"
+        android:min="0"
+        android:max="100"
+        android:defaultValue="30" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_show_count_badge"
+        android:title="@string/hub_count_badge"
+        android:defaultValue="false" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_badge_text_size_sp10"
+        android:title="@string/hub_count_badge_size"
+        android:min="60"
+        android:max="180"
+        android:defaultValue="100" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_battery_indicator_enabled"
+        android:title="@string/hub_battery_indicator"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_charging_ring_enabled"
+        android:title="@string/hub_charging_ring"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_charging_pulse_enabled"
+        android:title="@string/hub_charging_pulse"
+        android:defaultValue="true" />
+</PreferenceScreen>

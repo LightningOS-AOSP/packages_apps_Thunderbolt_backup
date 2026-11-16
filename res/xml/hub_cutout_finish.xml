@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="cutout_progress_finish_style"
+        android:title="@string/hub_finish_style"
+        android:entries="@array/hub_finish_style_entries"
+        android:entryValues="@array/hub_finish_style_values"
+        android:defaultValue="0" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_finish_hold_ms"
+        android:title="@string/hub_finish_hold"
+        android:min="0"
+        android:max="2000"
+        android:defaultValue="500" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_finish_exit_ms"
+        android:title="@string/hub_finish_exit"
+        android:min="0"
+        android:max="2000"
+        android:defaultValue="500" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_finish_use_flash"
+        android:title="@string/hub_finish_flash"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_completion_pulse"
+        android:title="@string/hub_finish_pulse"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_glow_enabled"
+        android:title="@string/hub_finish_glow"
+        android:defaultValue="false" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_glow_radius_dp10"
+        android:title="@string/hub_finish_glow_radius"
+        android:min="1"
+        android:max="100"
+        android:defaultValue="40" />
+</PreferenceScreen>

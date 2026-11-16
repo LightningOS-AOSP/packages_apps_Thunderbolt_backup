@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_percent_enabled"
+        android:title="@string/hub_percent_enable"
+        android:defaultValue="false" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_percent_size_sp10"
+        android:title="@string/hub_percent_size"
+        android:min="40"
+        android:max="200"
+        android:defaultValue="80" />
+
+    <ListPreference
+        android:key="cutout_progress_percent_position"
+        android:title="@string/hub_percent_position"
+        android:entries="@array/hub_position_entries"
+        android:entryValues="@array/hub_position_values"
+        android:defaultValue="0" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_percent_bold"
+        android:title="@string/hub_percent_bold"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_filename_enabled"
+        android:title="@string/hub_filename_enable"
+        android:defaultValue="false" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_filename_size_sp10"
+        android:title="@string/hub_filename_size"
+        android:min="40"
+        android:max="160"
+        android:defaultValue="70" />
+
+    <SeekBarPreference
+        android:key="cutout_progress_filename_max_chars"
+        android:title="@string/hub_filename_max_chars"
+        android:min="4"
+        android:max="40"
+        android:defaultValue="20" />
+
+    <ListPreference
+        android:key="cutout_progress_filename_position"
+        android:title="@string/hub_filename_position"
+        android:entries="@array/hub_position_entries"
+        android:entryValues="@array/hub_position_values"
+        android:defaultValue="4" />
+
+    <SwitchPreferenceCompat
+        android:key="cutout_progress_filename_bold"
+        android:title="@string/hub_filename_bold"
+        android:defaultValue="false" />
+</PreferenceScreen>
