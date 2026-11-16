@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="status_bar_dynamic_island_media_controls"
+        android:title="@string/hub_island_media"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="status_bar_dynamic_island_lyrics"
+        android:title="@string/hub_island_lyrics"
+        android:defaultValue="false" />
+
+    <SwitchPreferenceCompat
+        android:key="status_bar_dynamic_island_screen_recording"
+        android:title="@string/hub_island_recording"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="status_bar_dynamic_island_stopwatch"
+        android:title="@string/hub_island_stopwatch"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="status_bar_dynamic_island_alarms"
+        android:title="@string/hub_island_alarms"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="status_bar_dynamic_island_flashlight"
+        android:title="@string/hub_island_flashlight"
+        android:defaultValue="true" />
+
+    <SeekBarPreference
+        android:key="status_bar_dynamic_island_width_scale"
+        android:title="@string/hub_island_width"
+        android:min="50"
+        android:max="150"
+        android:defaultValue="100" />
+
+    <SeekBarPreference
+        android:key="status_bar_dynamic_island_height_scale"
+        android:title="@string/hub_island_height"
+        android:min="50"
+        android:max="150"
+        android:defaultValue="100" />
+</PreferenceScreen>

@@ -63,4 +63,14 @@
     <string name="hub_finish_glow">Glow effect</string>
     <string name="hub_finish_glow_radius">Glow radius</string>
 
+    <string name="hub_island_title">Dynamic Island</string>
+    <string name="hub_island_summary">Which events appear and how large they render</string>
+    <string name="hub_island_media">Media controls</string>
+    <string name="hub_island_lyrics">Lyrics</string>
+    <string name="hub_island_recording">Screen recording</string>
+    <string name="hub_island_stopwatch">Stopwatch</string>
+    <string name="hub_island_alarms">Alarms</string>
+    <string name="hub_island_flashlight">Flashlight</string>
+    <string name="hub_island_width">Width scale</string>
+    <string name="hub_island_height">Height scale</string>
 </resources>
