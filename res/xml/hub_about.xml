@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="hub_about_open"
+        android:title="@string/hub_about_title"
+        android:summary="@string/hub_about_summary">
+        <intent
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.android.settings.Settings$MyDeviceInfoActivity" />
+    </Preference>
+</PreferenceScreen>

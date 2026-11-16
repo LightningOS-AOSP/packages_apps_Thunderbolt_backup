@@ -131,4 +131,17 @@
     <string name="hub_gl_interval">Timer interval</string>
     <string name="hub_gl_cache">Cached glyphs</string>
     <string name="hub_gl_wifi">Download over Wi-Fi only</string>
+    <string name="hub_powermenu_title">Power menu</string>
+    <string name="hub_powermenu_summary">Choose which actions are offered</string>
+    <string name="hub_screenshot_title">Screenshot flash</string>
+    <string name="hub_screenshot_summary">Flash the edges when a capture completes</string>
+    <string name="hub_about_title">About phone</string>
+    <string name="hub_about_summary">Build, kernel and device information</string>
+    <string name="hub_blur_title">System blur</string>
+    <string name="hub_blur_summary">Window blur strength across the system</string>
+    <string name="hub_power_airplane">Airplane mode</string>
+    <string name="hub_power_screenshot">Screenshot</string>
+    <string name="hub_power_onthego">On-the-go mode</string>
+    <string name="hub_screenshot_flash_enable">Flash on capture</string>
+    <string name="hub_blur_strength">Blur strength</string>
 </resources>

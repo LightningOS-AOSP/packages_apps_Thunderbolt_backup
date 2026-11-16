@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SeekBarPreference
+        android:key="system_blur_radius_pct"
+        android:title="@string/hub_blur_strength"
+        android:min="0"
+        android:max="100"
+        android:defaultValue="60" />
+</PreferenceScreen>

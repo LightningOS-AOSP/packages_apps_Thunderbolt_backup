@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="airplane"
+        android:title="@string/hub_power_airplane"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="screenshot"
+        android:title="@string/hub_power_screenshot"
+        android:defaultValue="true" />
+
+    <SwitchPreferenceCompat
+        android:key="onthego"
+        android:title="@string/hub_power_onthego"
+        android:defaultValue="false" />
+</PreferenceScreen>

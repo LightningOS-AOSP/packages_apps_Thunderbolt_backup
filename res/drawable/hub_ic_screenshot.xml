@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 LightningOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="@color/hub_blue_circle"
+        android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    <group
+        android:scaleX="0.0225"
+        android:scaleY="0.0225"
+        android:translateX="13.2"
+        android:translateY="13.2">
+        <path
+            android:fillColor="@color/hub_blue_glyph"
+            android:pathData="M480-260q75 0 127.5-52.5T660-440q0-75-52.5-127.5T480-620q-75 0-127.5 52.5T300-440q0 75 52.5 127.5T480-260Zm0-80q-42 0-71-29t-29-71q0-42 29-71t71-29q42 0 71 29t29 71q0 42-29 71t-71 29ZM160-120q-33 0-56.5-23.5T80-200v-140h80v140h140v80H160Zm640 0H660v-80h140v-140h80v140q0 33-23.5 56.5T800-120ZM80-640v-140q0-33 23.5-56.5T160-880h140v80H160v140H80Zm720 0v-140H660v-80h140q33 0 56.5 23.5T880-780v140h-80Z" />
+    </group>
+</vector>

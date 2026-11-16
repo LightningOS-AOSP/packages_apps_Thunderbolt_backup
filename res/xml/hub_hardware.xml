@@ -3,4 +3,20 @@
      Copyright (C) 2026 LightningOS
      SPDX-License-Identifier: Apache-2.0
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" />
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_hw_about"
+        android:title="@string/hub_about_title"
+        android:summary="@string/hub_about_summary"
+        android:fragment="com.lightning.control.screens.AboutScreen"
+        app:hubIcon="@drawable/hub_ic_hardware" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_hw_blur"
+        android:title="@string/hub_blur_title"
+        android:summary="@string/hub_blur_summary"
+        android:fragment="com.lightning.control.screens.BlurScreen"
+        app:hubIcon="@drawable/hub_ic_blur" />
+</PreferenceScreen>

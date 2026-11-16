@@ -19,4 +19,17 @@
         android:summary="@string/hub_dynamic_bar_summary"
         android:fragment="com.lightning.control.screens.DynamicBarScreen"
         app:hubIcon="@drawable/hub_ic_dynamic_island" />
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_system_powermenu"
+        android:title="@string/hub_powermenu_title"
+        android:summary="@string/hub_powermenu_summary"
+        android:fragment="com.lightning.control.screens.PowerMenuScreen"
+        app:hubIcon="@drawable/hub_ic_powermenu" />
+
+    <com.lightning.control.prefs.HubCardPreference
+        android:key="hub_system_screenshot"
+        android:title="@string/hub_screenshot_title"
+        android:summary="@string/hub_screenshot_summary"
+        android:fragment="com.lightning.control.screens.ScreenshotScreen"
+        app:hubIcon="@drawable/hub_ic_screenshot" />
 </PreferenceScreen>
