@@ -7,7 +7,7 @@ package com.lightning.control.hub;
 
 import androidx.annotation.NonNull;
 
-import com.lightning.thunderbolt.R;
+import com.android.settings.R;
 
 public enum HubTab {
 

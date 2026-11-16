@@ -18,7 +18,7 @@ import com.lightning.control.hub.HubTab;
 import com.lightning.control.nav.FrostLayer;
 import com.lightning.control.nav.PillFrost;
 import com.lightning.control.nav.PillNavView;
-import com.lightning.thunderbolt.R;
+import com.android.settings.R;
 
 public class ControlCenterActivity extends AppCompatActivity {
 

@@ -7,7 +7,7 @@ package com.lightning.control.screens;
 
 import androidx.preference.PreferenceFragmentCompat;
 
-import com.lightning.thunderbolt.R;
+import com.android.settings.R;
 
 public class ClockChipScreen extends PreferenceFragmentCompat {
 

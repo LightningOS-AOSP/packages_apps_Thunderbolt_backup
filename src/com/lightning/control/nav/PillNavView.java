@@ -20,7 +20,7 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
 import com.lightning.control.hub.HubTab;
-import com.lightning.thunderbolt.R;
+import com.android.settings.R;
 
 public class PillNavView extends LinearLayout {
 

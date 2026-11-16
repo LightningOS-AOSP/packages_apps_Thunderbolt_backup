@@ -17,7 +17,7 @@ import android.widget.TextView;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import com.lightning.thunderbolt.R;
+import com.android.settings.R;
 
 public class HubCardPreference extends Preference {
 

@@ -5,7 +5,7 @@
 
 package com.lightning.control.hub;
 
-import com.lightning.thunderbolt.R;
+import com.android.settings.R;
 
 public class SystemPage extends HubPageFragment {
 
