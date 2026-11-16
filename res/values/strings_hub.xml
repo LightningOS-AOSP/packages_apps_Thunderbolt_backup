@@ -5,4 +5,9 @@
 -->
 <resources>
     <string name="hub_title">Lightning Control</string>
+
+    <string name="hub_tab_system">System</string>
+    <string name="hub_tab_lockscreen">Lockscreen</string>
+    <string name="hub_tab_statusbar">Statusbar</string>
+    <string name="hub_tab_hardware">Hardware</string>
 </resources>

@@ -3,8 +3,54 @@
      Copyright (C) 2026 LightningOS
      SPDX-License-Identifier: Apache-2.0
 -->
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/hub_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/hub_bg" />
+    android:background="@color/hub_bg">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/hub_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/hub_collapsing"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            app:collapsedTitleGravity="start"
+            app:collapsedTitleTextAppearance="@style/TextAppearance.Hub.Collapsed"
+            app:contentScrim="@color/hub_bg"
+            app:expandedTitleGravity="start|bottom"
+            app:expandedTitleMarginStart="24dp"
+            app:expandedTitleMarginBottom="16dp"
+            app:expandedTitleTextAppearance="@style/TextAppearance.Hub.Expanded"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/hub_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@android:color/transparent"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/hub_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/hub_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
