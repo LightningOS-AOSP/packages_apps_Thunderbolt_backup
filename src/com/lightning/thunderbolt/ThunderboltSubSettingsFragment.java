@@ -88,21 +88,6 @@ public abstract class ThunderboltSubSettingsFragment extends SettingsPreferenceF
         ThunderboltTheme.applySubScreenTheme(getPreferenceScreen());
     }
 
-    /**
-     * This screen already applies Thunderbolt theming itself, so the generic Lightning
-     * style hook in {@code SettingsPreferenceFragment} must not also restyle it.
-     */
-    @Override
-    protected boolean isThunderboltStyledScreen() {
-        return true;
-    }
-
-    @Override
-    protected boolean isPreferenceSpacingEnabled() {
-        // Flush rows like the dashboard — no expressive spacing.
-        return false;
-    }
-
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.LIGHTNING;

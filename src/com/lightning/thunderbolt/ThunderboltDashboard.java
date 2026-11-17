@@ -89,22 +89,6 @@ public class ThunderboltDashboard extends SettingsPreferenceFragment {
     }
 
     @Override
-    protected boolean isPreferenceSpacingEnabled() {
-        // The expressive settingslib theme adds a bottom margin to every row. Our dashboard
-        // keeps rows flush, so disable it here.
-        return false;
-    }
-
-    /**
-     * The dashboard rows carry their own Thunderbolt styling; the generic Lightning style
-     * hook must not restyle them (and must not override {@link ThunderboltDashboardPreference}).
-     */
-    @Override
-    protected boolean isThunderboltStyledScreen() {
-        return true;
-    }
-
-    @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.LIGHTNING;
     }
