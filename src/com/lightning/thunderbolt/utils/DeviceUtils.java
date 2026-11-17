@@ -23,6 +23,7 @@ import android.hardware.camera2.CameraManager;
 import android.nfc.NfcAdapter;
 import android.os.Build;
 import android.os.SystemProperties;
+import android.os.Vibrator;
 import android.telephony.TelephonyManager;
 import android.telephony.SubscriptionManager;
 import android.text.TextUtils;
@@ -39,6 +40,11 @@ import androidx.annotation.NonNull;
 import java.util.Arrays;
 
 public class DeviceUtils {
+
+    public static boolean hasVibrator(Context context) {
+        Vibrator vibrator = context.getSystemService(Vibrator.class);
+        return vibrator != null && vibrator.hasVibrator();
+    }
 
     /* returns whether the device has a centered display cutout or not. */
     public static boolean hasCenteredCutout(Context context) {
